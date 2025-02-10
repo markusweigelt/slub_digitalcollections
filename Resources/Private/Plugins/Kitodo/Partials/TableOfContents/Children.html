@@ -36,9 +36,7 @@
 
     <f:if condition="{child.doNotLinkIt}">
         <f:then>
-            <span class="a">
-                <f:render partial="TableOfContents/Title" arguments="{child: child}"/>
-            </span>
+            <f:render partial="TableOfContents/Title" arguments="{child: child}"/>
         </f:then>
         <f:else>
             <f:link.action

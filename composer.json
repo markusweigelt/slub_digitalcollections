@@ -27,12 +27,8 @@
   ],
   "license": "GPL-3.0-or-later",
   "require": {
-    "php": "7.4 - 8.3",
     "typo3/cms-core": "^10.4|^11.5",
-    "kitodo/presentation": "^5.0|dev-main"
-  },
-  "require-dev": {
-    "phpstan/phpstan": "^1.12"
+    "kitodo/presentation": "^5.0|dev-master"
   },
   "autoload": {
     "psr-4": {
